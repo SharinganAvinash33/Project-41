@@ -48,6 +48,9 @@ class Form{
         this.reset.mousePressed(()=>{
             player.updateCount(0);
             game.update(0);
+            players2.remove();
+            this.display();
+            game.start();
         })
         
         
