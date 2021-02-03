@@ -112,6 +112,7 @@ class Game{
         if(player.score>=10){
             this.end();
         }
+        players2=database.ref("/players")
 
 
     }
